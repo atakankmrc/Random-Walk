@@ -5,6 +5,8 @@ import matplotlib.pyplot as plt
 xArray = []
 iArray = []
 
+numberOfSteps = 100  # Change this to change number of steps
+
 
 def random_walk1D(n):
     x = 0
@@ -19,7 +21,7 @@ def random_walk1D(n):
     return(x)
 
 
-walk = random_walk1D(5)
+walk = random_walk1D(numberOfSteps)
 text = "Last Position: " + str(walk)
 
 plt.plot(iArray, xArray)
