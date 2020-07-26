@@ -27,5 +27,4 @@ plt.suptitle(text)
 plt.title("Random Walk")
 plt.xlabel("Step")
 plt.ylabel("Position")
-
 plt.show()
